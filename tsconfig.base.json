@@ -10,17 +10,17 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": [
-      "es2020",
-      "dom"
-    ],
+    "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@org/dashboard": ["libs/money-matters/dashboard/src/index.ts"],
+      "@org/login": ["login/src/index.ts"],
+      "@org/login-lib": ["libs/money-matters/login/src/index.ts"],
+      "@org/transactions": ["libs/money-matters/transactions/src/index.ts"],
+      "@org/user-profile": ["libs/money-matters/user-profile/src/index.ts"]
+    }
   },
-  "exclude": [
-    "node_modules",
-    "tmp"
-  ]
+  "exclude": ["node_modules", "tmp"]
 }
