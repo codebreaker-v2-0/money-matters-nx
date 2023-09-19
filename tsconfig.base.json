@@ -18,6 +18,7 @@
       "@org/dashboard": ["libs/money-matters/dashboard/src/index.ts"],
       "@org/login": ["login/src/index.ts"],
       "@org/login-lib": ["libs/money-matters/login/src/index.ts"],
+      "@org/shared": ["libs/money-matters/shared/src/index.ts"],
       "@org/transactions": ["libs/money-matters/transactions/src/index.ts"],
       "@org/user-profile": ["libs/money-matters/user-profile/src/index.ts"]
     }
